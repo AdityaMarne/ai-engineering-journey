@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.env
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data & models (keep repo small; document download steps instead)
+data/
+*.csv
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+mlruns/
+wandb/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+# Private study material: every Markdown file stays local,
+# except the root README.md, which is the public learning journal.
+*.md
+!/README.md
+gitcmd.txt

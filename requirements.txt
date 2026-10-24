@@ -1,0 +1,11 @@
+# Phase 0–2 core; later phases add their own requirements in project folders
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
+pydantic
+anthropic
+python-dotenv
+pytest
+ruff
