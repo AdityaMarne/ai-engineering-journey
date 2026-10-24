@@ -1,11 +1,15 @@
 # AI Engineering Journey
 
-A structured 26-week path to AI/LLM engineering, from fundamentals to deployed, evaluated, production-grade AI systems, documented daily.
+I'm an AI/ML Engineer working my way to production-grade AI systems over 26 weeks, step by step: from Python and math fundamentals, through machine learning, deep learning, and transformers, to RAG, agents, and deployed, evaluated, monitored LLM applications.
+
+This page is my public learning journal. Each entry records what I learned and what I built, and links to the code.
 
 **Author:** Aditya Marne · [LinkedIn](https://www.linkedin.com/in/aditya-marne-1b592b216) · [GitHub](https://github.com/AdityaMarne)
 **Started:** 26 Oct 2026 · **Current phase:** 0, Setup and Diagnostic
 
-## Roadmap at a glance
+---
+
+## The path
 
 | Phase | Weeks | Focus | Status |
 |---|---|---|---|
@@ -16,34 +20,39 @@ A structured 26-week path to AI/LLM engineering, from fundamentals to deployed, 
 | 4 | 12–15 | NLP, embeddings, vector search, RAG | ⏳ |
 | 5 | 16–20 | LLMs, tool calling, agents, fine-tuning | ⏳ |
 | 6 | 21–24 | Production, LLMOps, safety, monitoring | ⏳ |
-| 7 | 25–26 | Portfolio and interview sprint | ⏳ |
-
-Full plan: **[ROADMAP.md](ROADMAP.md)** · Progress and self-assessment: **[PROGRESS.md](PROGRESS.md)** · Workflow: **[docs/WORKFLOW.md](docs/WORKFLOW.md)**
+| 7 | 25–26 | Portfolio and interview prep | ⏳ |
 
 ## Projects
 
-| # | Project | Skills shown | Status |
-|---|---|---|---|
-| P1 | Churn prediction, end to end | ML pipelines, leakage-proof CV, calibration, SHAP, FastAPI | ⏳ |
-| P2 | GPT from scratch | PyTorch, attention, transformer internals | ⏳ |
-| P3 | Evaluated RAG over financial filings | Hybrid search, reranking, RAG evals, Docker | ⏳ |
-| P4 | Job-application multi-agent system | LangGraph, tool calling, human-in-the-loop, agent evals, QLoRA | ⏳ |
-| P5 | Text-to-SQL analytics agent (capstone) | Semantic layer, AWS deployment, CI evals, observability, LLM security | ⏳ |
+## Learning journal
 
-## Key learnings
+<!--
+Add one entry per study day, newest week at the top. Keep each entry short:
+what I learned (in plain words) → what I built → link to the code.
 
-<!-- Add 1–2 lines each week from your weekly review: the insight, not the topic. -->
-- _Week 1:_ …
+### Week NN: <theme>
+**Day N · YYYY-MM-DD: <topic>**
+- Learned: ...
+- Built: [file name](phases/NN-name/code/file.py)
+- Takeaway: ...
+
+**Week NN summary:** the 1–2 insights that mattered most this week.
+-->
+
+### Week 1: Setup and diagnostic
+
+**Day 1 · 2026-10-26: Environment and repository setup**
+- Learned: _..._
+- Built: _..._
+- Takeaway: _..._
+
+---
 
 ## Repository layout
 
 ```
-├── ROADMAP.md / PROGRESS.md      plan and tracking
-├── docs/                         workflow, resources, templates
-├── logs/week-XX/                 daily logs + weekly review
-├── phases/NN-name/               notes/, code/, exercises/ per phase
-├── projects/                     portfolio projects (P1–P5)
-├── dsa/                          problem log by pattern
-├── interview-prep/               question bank in my own words
-└── scripts/                      new_day.py, new_week.py helpers
+phases/NN-name/code/        implementations and exercises, with tests
+projects/                   portfolio projects P1–P5
+dsa/                        solutions organized by pattern
+scripts/                    helper scripts
 ```
